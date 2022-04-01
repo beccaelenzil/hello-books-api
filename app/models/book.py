@@ -5,6 +5,6 @@ class Book(db.Model):
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     title = db.Column(db.String)
     description = db.Column(db.String)
-    isbn = db.Column(db.Integer)
     author = db.Column(db.String)
+
 
