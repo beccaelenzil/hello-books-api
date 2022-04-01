@@ -6,3 +6,5 @@ class Book(db.Model):
     title = db.Column(db.String)
     description = db.Column(db.String)
     isbn = db.Column(db.Integer)
+    author = db.Column(db.String)
+
