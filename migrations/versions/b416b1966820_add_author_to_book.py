@@ -1,8 +1,8 @@
 """add author to book
 
-Revision ID: bf69b044cdfc
-Revises: f9e86c06ab0d
-Create Date: 2022-04-01 12:13:43.543262
+Revision ID: b416b1966820
+Revises: 3a7ada0c18fe
+Create Date: 2022-04-01 14:00:06.981039
 
 """
 from alembic import op
@@ -10,8 +10,8 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = 'bf69b044cdfc'
-down_revision = 'f9e86c06ab0d'
+revision = 'b416b1966820'
+down_revision = '3a7ada0c18fe'
 branch_labels = None
 depends_on = None
 
