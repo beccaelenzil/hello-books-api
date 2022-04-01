@@ -15,6 +15,7 @@ def create_book():
 
     return make_response(f"Book {new_book.title} successfully created", 201)
 
+
 @books_bp.route("", methods=["GET"])
 def read_all_books():
     books_response = []
@@ -28,6 +29,7 @@ def read_all_books():
             }
         )
     return jsonify(books_response)
+
 
 #def validate_book(book_id):
 #    try:
